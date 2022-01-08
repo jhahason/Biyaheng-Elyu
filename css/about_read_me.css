@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:ital,wght@1,200&family=Poppins:ital,wght@0,300;0,400;1,200&family=The+Nautigal:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(/Images/Read_Me_Background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.nav-area li {
+    display: inline-block;
+}
+
+.nav-area li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+.nav-area li a:hover {
+    background: #fff;
+    color: #333;
+}
+
+.logo img {
+    width: 250px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+
+.team-section {
+    width: 100%;
+}
+
+.team-section .container .row {
+    width: 80%;
+    margin: auto;
+}
+
+.team-section .container .row .title {
+   text-align: center;
+   margin-top: 50px;
+   padding-top: 150px;
+   font-size: 60px;
+   color: burlywood;
+}
+
+.team-section .container .row .title .h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #eb6234;
+}
+
+.team-section .container .row .title p {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 30px 0px;
+    color: #a3a3a3;
+}
+
+.team-section .container .team-card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3 4fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.team-section .container .team-card .card {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.team-section .container .team-card .card:hover {
+    background-color: rgba(299, 299, 299, 0.2);
+    transition: 0.3s;
+}
+
+.team-section .container .team-card .card .image-section img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+}
+
+.team-section .container .team-card .card .content {
+    width: 100%;
+    text-align: center;
+}
+
+.team-section .container .team-card .card .content h1 {
+    font-size: 27px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: gray;
+}
+
+.team-section .container .team-card .card .content h3 {
+    font-size: 50px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #6e6e6e;
+    text-transform: uppercase;
+}
+
+.team-section .container .team-card .card .content p {
+    font-size: 15px;
+    margin: 16px 0px;
+    line-height: 1.5;
+    color: burlywood;
+}
+
+.team-section .container .team-card .card .content h4 {
+    font-size: 20px;
+    margin: 16px 0px;
+    line-height: 1.5;
+    color: white;
+}
