@@ -9,7 +9,7 @@
     margin: auto;
 }
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../Images/Background_Image.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('Images/Backgroundimage2.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center center;
