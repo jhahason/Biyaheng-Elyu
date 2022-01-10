@@ -37,7 +37,7 @@ body {
 }
 
 .nav-area li a:hover {
-    background: #fff;
+    background: burlywood;
     color: #333;
 }
 
@@ -58,7 +58,7 @@ body {
     text-align: center;
     color: #8E806A;
     text-transform: uppercase;
-    font-size: 70px;
+    font-size: 80px;
 }
 
 .welcome-text a {
@@ -79,4 +79,5 @@ body {
 
 .welcome-text p {
     color: #fff;
+    font-size: 20px;
 }
