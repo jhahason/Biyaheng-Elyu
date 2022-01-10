@@ -6,6 +6,43 @@
     box-sizing: inherit;
 }
 
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+.nav-area {
+    float: left;
+    list-style: none;
+    margin-left: 250px;
+    margin-top: 40px;
+    padding-right: 10px;
+}
+
+.nav-area li {
+    display: inline-block;
+}
+
+.nav-area li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+.nav-area li a:hover {
+    background: burlywood;
+    color: #333;
+}
+
+.logo img {
+    width: 250px;
+    float: left;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+
 html {
     font-size: 62.5%;
 }
