@@ -1,18 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Libre+Baskerville:wght@700&family=Montserrat:ital,wght@0,300;0,700;1,200;1,900&family=Poppins:ital,wght@0,400;0,500;1,200&family=The+Nautigal:wght@400;700&display=swap');
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../Images/Package_Background_6.jpg');
 }
 
 .wrapper {
     width: 1170px;
     margin: auto;
-}
-body {
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
 }
 
 .nav-area {
@@ -27,14 +24,14 @@ body {
 }
 
 .nav-area li a {
-    color: #fff;
+    color: burlywood;
     text-decoration: none;
     padding: 5px 20px;
     font-size: 14px;
 }
 
 .nav-area li a:hover {
-    background: #fff;
+    background: burlywood;
     color: #333;
 }
 
@@ -45,70 +42,107 @@ body {
     padding-top: 2%;
 }
 
-.heading {
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container .row {
+    width: 85%;
+    margin: auto;
+}
+
+.container .row .heading-section {
+    width: 60%;
     text-align: center;
-    padding: 1rem 16rem;
-    padding-top: 15rem;
-    font-size: 3.5rem;
-    color: var(--red);
-    text-transform: uppercase;
-    margin-top: 0%;
+    margin: auto;
 }
 
-.title {
-    text-align: center;
-    padding: 0rem 1rem;
-    font-size: 2.5rem;
-    color: #666;
-    font-weight: 300;
+.container .row .heading-section h1 {
+    padding-top: 110px;
+    font-size: 50px;
+    color: burlywood;
 }
 
-.feature {
-    background: #2c3a47;
+.container .row .heading-section p {
+    margin-top: 15px;
+    margin-left: 80px;
+    color: grey;
+    font-size: 25px;
+    line-height: 1.5;
 }
 
-.feature .title {
-    color: #eee;
+.container .row .heading-section span {
+    color: skyblue;
+    margin-left: 80px;
+    font-size: 5rem;
 }
 
-.feature .card-container {
+.content-section {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    padding: 2rem 0;
+    align-items: center;
+    margin: auto;
 }
 
-.feature .card-container .card {
-    height: 45rem;
-    width: 30rem;
-    margin: 2rem 1rem;
-    position: relative;
-    overflow: hidden;
+.content-section .card {
+    flex: 1;
+    margin: 40px 20px;
 }
 
-.feature .card-container .card img {
-    height: 100%;
+.content-section .card img {
     width: 100%;
-    object-fit: cover;
+    height: auto;
+    border: transparent;
+    border-radius: 60%;
 }
 
-.feature .card-container .card .info {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    bottom: 0; left: 0;
-    background: linear-gradient(transparent, #000);
-    padding: 0 2rem;
-    padding-top: 85%;
+.content-section .card img h4 {
+    margin-top: 20px;
 }
 
-.feature .card-container .card .info h3 {
-    font-size: 3rem;
-    color: #fff;
+.content-section .card h4 {
+    color: burlywood;
+    font-size: 2rem;
+    text-align: center;
 }
 
-.feature .card-container .card .info .stars {
-    font-size: 1.5rem;
-    color: var(--red);
-    padding: 1rem 0;
+.content-section .card h4 span {
+    font-size: 35px;
+    color: skyblue;
+}
+
+.content-section .card i {
+    color: yellow;
+    font-size: 30px;
+}
+
+
+.content-section .card p {
+    font-size: 15px;
+    margin-top: 10px;
+    color: grey;
+    line-height: 1.5;
+}
+
+.content-section .card p span {
+    font-size: 25px;
+}
+
+section .card1 h4 {
+    font-size: 2rem;
+    color: burlywood;
+    text-align: center;
+}
+
+section .card1 p {
+    color: grey;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .content-section {
+        flex-direction: column;
+
+    }
 }

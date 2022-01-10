@@ -20,7 +20,7 @@ body {
 .nav-area {
     float: right;
     list-style: none;
-    margin-top: 20px;
+    margin-top: 80px;
     padding-right: 10px;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .nav-area li a:hover {
-    background: #fff;
+    background: grey;
     color: #333;
 }
 
@@ -72,6 +72,7 @@ body {
 .image-section img {
     width: 100%;
     height: auto;
+    padding-top: 80px;
 }
 
 .content-section {

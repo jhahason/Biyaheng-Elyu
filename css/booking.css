@@ -31,7 +31,7 @@
 }
 
 .nav-area li a:hover {
-    background: burlywood;
+    background: #66a5ad;
     color: #333;
 }
 
@@ -66,9 +66,9 @@ section {
     width: 80%;
     height: 90%;
     background-image: linear-gradient(105deg,
-     rgba(255, 255, 255, 0.9) 0%,
-     rgba(255, 255, 255, 0.9) 50%, 
-     transparent 50%), url(../Images/Booking_Background.jpg);
+     rgba(255, 255, 255, 0.5) 0%,
+     rgba(255, 255, 255, 0.5) 50%, 
+     transparent 50%), url(../Images/Booking_Background_New.jpg);
      background-size: 100%;
      background-position: right;
      border-radius: 3px;
@@ -87,7 +87,7 @@ section {
 }
 
 .form_group {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 .form_group:nth-child(3) {
@@ -100,7 +100,7 @@ section {
     color: inherit;
     padding: 1.5rem 2rem;
     border-radius: 2px;
-    background-color: rgba(196, 223, 230, 0.4);
+    background-color: rgba(196, 223, 230, 0.7);
     border: none;
     border-bottom: 3px solid transparent;
     width: 90%;
@@ -127,7 +127,7 @@ section {
     font-style: 1.4rem;
     font-weight: 700;
     margin-left: 2rem;
-    margin-top: 0.7rem;
+    margin-top: 2rem;
     display: block;
     transition: all 0.3s;
 }
@@ -195,7 +195,7 @@ section {
     font-size: 16px;
     border: none;
     cursor: pointer;
-    margin-top: 4rem;
+    margin-top: 5rem;
     background-color: #07575b;
     color: white;
 }

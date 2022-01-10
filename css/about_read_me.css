@@ -15,8 +15,9 @@ body {
 }
 
 .nav-area {
-    float: right;
+    float: left;
     list-style: none;
+    margin-left: 15rem;
     margin-top: 20px;
     padding-right: 10px;
 }
@@ -40,8 +41,9 @@ body {
 .logo img {
     width: 250px;
     float: left;
-    padding-left: 5%;
-    padding-top: 2%;
+    margin-left: 100px;
+    padding-left: 4%;
+    padding-top: 0;
 }
 
 
