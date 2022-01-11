@@ -23,7 +23,7 @@ html {
 .nav-area {
     float: right;
     list-style: none;
-    margin-top: 0;
+    margin-top: 40px;
     padding-right: 10px;
 }
 
@@ -35,7 +35,7 @@ html {
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 5px 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .nav-area li a:hover {
@@ -80,6 +80,7 @@ section {
     font-weight: 900;
     letter-spacing: -2px;
     margin-top: 50px;
+    color: #99FEFF;
 }
 form {
     margin-top: 20px;
@@ -175,6 +176,8 @@ form ion-icon {
     text-align: center;
     padding-bottom: 1px;
     color: grey;
+    border-top: 1px solid grey;
+    border-radius: 3%;
 }
 
 .footer .social .footer-section {

@@ -15,7 +15,7 @@ body {
 .nav-area {
     float: right;
     list-style: none;
-    margin-top: 20px;
+    margin-top: 60px;
     padding-right: 10px;
 }
 
@@ -27,7 +27,7 @@ body {
     color: burlywood;
     text-decoration: none;
     padding: 5px 20px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .nav-area li a:hover {
@@ -59,7 +59,7 @@ body {
 }
 
 .container .row .heading-section h1 {
-    padding-top: 110px;
+    padding-top: 150px;
     font-size: 50px;
     color: burlywood;
 }
@@ -73,9 +73,9 @@ body {
 }
 
 .container .row .heading-section span {
-    color: skyblue;
+    color: #659dbd;
     margin-left: 80px;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .content-section {
@@ -149,6 +149,8 @@ section .card1 p {
     text-align: center;
     padding-bottom: 1px;
     color: grey;
+    border-top: 1px solid grey;
+    border-radius: 3%;
 }
 
 .footer .social .footer-section {

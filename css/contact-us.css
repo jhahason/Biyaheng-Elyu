@@ -15,7 +15,7 @@
 .nav-area {
     float: right;
     list-style: none;
-    margin-top: 20px;
+    margin-top: 40px;
     padding-right: 10px;
 }
 
@@ -24,14 +24,14 @@
 }
 
 .nav-area li a {
-    color: #fff;
+    color: #92A9BD;
     text-decoration: none;
     padding: 5px 20px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .nav-area li a:hover {
-    background: burlywood;
+    background: #00bcd4;
     color: #333;
 }
 
@@ -67,7 +67,7 @@
 
 .contact .content p {
     font-weight: 500;
-    color: #fff;
+    color: #92A9BD;
 }
 
 .container {
@@ -93,7 +93,7 @@
 .container .contactInfo .box .icon {
     min-width: 60px;
     height: 60px;
-    background: #fff;
+    background: #92A9BD;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +105,7 @@
     display: flex;
     margin-left: 20px;
     font-size: 16px;
-    color: #fff;
+    color: #92A9BD;
     flex-direction: column;
     font-weight: 300;
 }
@@ -161,7 +161,7 @@
 .contactForm .inputBox input:valid ~ span,
 .contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid ~ span {
-    color: #e91e63;
+    color: #00bcd4;
     font-size: 12px;
     transform: translateY(-20px);
 }
@@ -182,7 +182,7 @@
 }
 
 .container .social i {
-    color: #fff;
+    color: #92A9BD;
     font-size: 30px;
     padding: 0 10px;
     letter-spacing: 20px;
@@ -201,6 +201,8 @@
     text-align: center;
     padding-bottom: 1px;
     color: grey;
+    border-top: 1px solid grey;
+    border-radius: 3%;
 }
 
 .footer .social .footer-section {

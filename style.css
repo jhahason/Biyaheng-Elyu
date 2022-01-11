@@ -33,7 +33,7 @@ body {
     color: #fff;
     text-decoration: none;
     padding: 5px 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .nav-area li a:hover {
@@ -84,13 +84,15 @@ body {
 
 .footer {
     padding: 150px 0 10px 0;
-    background-color: transparent;  
+    background-color: transparent; 
 }
 
 .footer .social {
     text-align: center;
     padding-bottom: 1px;
     color: grey;
+    border-top: 1px solid grey;
+    border-radius: 3%;
 }
 
 .footer .social .footer-section {

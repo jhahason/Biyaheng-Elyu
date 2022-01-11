@@ -18,7 +18,7 @@ body {
     float: left;
     list-style: none;
     margin-left: 15rem;
-    margin-top: 20px;
+    margin-top: 40px;
     padding-right: 10px;
 }
 
@@ -30,7 +30,7 @@ body {
     color: #fff;
     text-decoration: none;
     padding: 5px 20px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .nav-area li a:hover {
@@ -151,6 +151,8 @@ body {
     text-align: center;
     padding-bottom: 1px;
     color: grey;
+    border-top: 1px solid grey;
+    border-radius: 3%;
 }
 
 .footer .social .footer-section {
