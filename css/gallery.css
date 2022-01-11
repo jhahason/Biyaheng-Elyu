@@ -32,10 +32,10 @@ html {
 }
 
 .nav-area li a {
-    color: #000;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 5px 20px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .nav-area li a:hover {
