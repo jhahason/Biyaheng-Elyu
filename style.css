@@ -50,7 +50,7 @@ body {
 
 .welcome-text {
     position: absolute;
-    margin: 20% 30%;
+    margin: 17% 30%;
     text-align: center;
 }
 
@@ -58,7 +58,7 @@ body {
     text-align: center;
     color: burlywood;
     text-transform: uppercase;
-    font-size: 80px;
+    font-size: 90px;
 }
 
 .welcome-text a {
@@ -83,7 +83,7 @@ body {
 }
 
 .footer {
-    padding: 150px 0 10px 0;
+    padding: 200px 0 10px 0;
     background-color: transparent; 
 }
 
